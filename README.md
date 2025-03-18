@@ -8,6 +8,7 @@ This is a simple and responsive shopping cart application built with React.js an
 
 
 📌 Features
+
 ✅ Product Listing – Displays available products with name, price, and image.
 
 ✅ Cart Management – Add, remove, and update product quantities.
@@ -51,11 +52,14 @@ npm run dev
 
 🛍️ Product Listing Page
 
-![home](https://github.com/user-attachments/assets/316c46a0-d63b-40f2-bd15-8e1a35ea1e49)
+![home](https://github.com/user-attachments/assets/b5b2d083-9624-4778-bb36-8972dedd8a49)
+
+
 
 🛒 Shopping Cart Page
 
-![checkoutpage](https://github.com/user-attachments/assets/c4f08f95-5419-4133-bb28-b859365526ce)
+![checkoutpage](https://github.com/user-attachments/assets/79c59fca-2811-4a3e-8295-d2dd655daba4)
+
 
 
 🛠️ How It Works
