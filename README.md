@@ -96,6 +96,6 @@ This project is open-source and licensed under the MIT License.
 
 📧 Email: asmitgawande1307@gmail.com
 
-🔗 GitHub: Your GitHub Profile
+🔗 GitHub: [Your GitHub Profile](https://github.com/asmit137)
 
 
