@@ -22,6 +22,8 @@ This is a simple and responsive shopping cart application built with React.js an
 ✅ Material UI Integration – Uses modern UI components for a clean and responsive design.
 
 
+
+
 🛠️ Tech Stack
 
 Frontend: React.js, Material UI
@@ -33,8 +35,12 @@ Data Persistence: LocalStorage
 Styling: CSS & Material UI Components
 
 
+
 📦 Installation & Setup
+
 1️⃣ Clone the Repository
+
+https://github.com/asmit137/ReactJS-Shopping-Cart-Project.git
 
 
 2️⃣ Install Dependencies
