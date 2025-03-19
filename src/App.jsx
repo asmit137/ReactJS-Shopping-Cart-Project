@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <AppBar position="static" sx={{ backgroundColor: "#1976d2" }}>
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-        <Button color="inherit" component={Link} to="ReactJS-Shopping-Cart-Project/">
+        <Button color="inherit" component={Link} to="/">
           Home
         </Button>
         <Box sx={{ flexGrow: 1, display: "flex", justifyContent: "center" }}>
