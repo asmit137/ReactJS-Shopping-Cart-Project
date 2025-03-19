@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <AppBar position="static" sx={{ backgroundColor: "#1976d2" }}>
       <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
-        <Button color="inherit" component={Link} to="/">
+        <Button color="inherit" component={Link} to="ReactJS-Shopping-Cart-Project/">
           Home
         </Button>
         <Box sx={{ flexGrow: 1, display: "flex", justifyContent: "center" }}>
@@ -19,7 +19,7 @@ const Navbar = () => {
             ReactJS Shopping Cart
           </Typography>
         </Box>
-        <Button color="inherit" component={Link} to="/cart">
+        <Button color="inherit" component={Link} to="ReactJS-Shopping-Cart-Project/cart">
           <Badge badgeContent={cart.length} color="error">
             <ShoppingCartIcon />
           </Badge>
@@ -36,8 +36,8 @@ const App = () => {
         <Navbar />
         <Container sx={{ marginTop: "20px" }}>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/cart" element={<CartPage />} />
+            <Route path="ReactJS-Shopping-Cart-Project/" element={<Home />} />
+            <Route path="ReactJS-Shopping-Cart-Project/cart" element={<CartPage />} />
           </Routes>
         </Container>
       </Router>
