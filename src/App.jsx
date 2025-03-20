@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from "react-router-dom";
 import { AppBar, Toolbar, Button, Badge, Container, Box, Typography } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import Home from "./pages/Home";
@@ -35,10 +35,12 @@ const App = () => {
       <Router>
         <Navbar />
         <Container sx={{ marginTop: "20px" }}>
+          <BrowserRouter basename="/ReactJS-Shopping-Cart-Project">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/ReactJS-Shopping-Cart-Project" element={<Home />} />
             <Route path="/cart" element={<CartPage />} />
           </Routes>
+          </BrowserRouter>
         </Container>
       </Router>
     </CartProvider>

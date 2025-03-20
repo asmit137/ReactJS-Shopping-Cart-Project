@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://asmit137.github.io/ReactJS-Shopping-Cart-Project",
