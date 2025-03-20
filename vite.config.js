@@ -6,5 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss(),],
 
-   basename: '/ReactJS-Shopping-Cart-Project/'
+   base : '/ReactJS-Shopping-Cart-Project/',
 })

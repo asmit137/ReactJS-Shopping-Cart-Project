@@ -35,12 +35,12 @@ const App = () => {
       <Router>
         <Navbar />
         <Container sx={{ marginTop: "20px" }}>
-          <BrowserRouter basename="/ReactJS-Shopping-Cart-Project">
+    
           <Routes>
-            <Route path="/ReactJS-Shopping-Cart-Project" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/cart" element={<CartPage />} />
           </Routes>
-          </BrowserRouter>
+      
         </Container>
       </Router>
     </CartProvider>
